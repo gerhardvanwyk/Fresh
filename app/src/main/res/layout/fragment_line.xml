@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.LineFragment">
+
+    <TextView
+        android:id="@+id/textview_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/shop_logo"
+        app:layout_constraintBottom_toTopOf="@id/button_spinach"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/line_home"
+        app:layout_constraintBottom_toTopOf="@id/button_spinach"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textview_logo" />
+
+    <Button
+        android:id="@+id/button_spinach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/line_spinach"
+        app:layout_constraintBottom_toTopOf="@id/button_rtc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_home" />
+
+    <Button
+        android:id="@+id/button_rtc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/line_rtc"
+        app:layout_constraintBottom_toTopOf="@id/button_lines"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_spinach" />
+
+    <Button
+        android:id="@+id/button_lines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/line_lines"
+        app:layout_constraintBottom_toTopOf="@id/button_mixers"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_rtc" />
+
+    <Button
+        android:id="@+id/button_mixers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/line_mixers"
+        app:layout_constraintBottom_toTopOf="@id/button_rocket"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_lines" />
+
+    <Button
+        android:id="@+id/button_rocket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/line_rocket"
+        app:layout_constraintBottom_toTopOf="@id/button_bowls"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_mixers" />
+
+    <Button
+        android:id="@+id/button_bowls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/line_bowls"
+        app:layout_constraintBottom_toTopOf="@id/button_salad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_rocket" />
+
+    <Button
+    android:id="@+id/button_salad"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/line_salad"
+    app:layout_constraintBottom_toTopOf="@id/button_core"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/button_bowls" />
+
+    <Button
+        android:id="@+id/button_core"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/line_core"
+        app:layout_constraintBottom_toTopOf="@id/button_soup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_salad" />
+
+    <Button
+        android:id="@+id/button_soup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/line_soup"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_core" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

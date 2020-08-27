@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Fresh</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="shop_fragment_label">Shop Fragment</string>
+    <string name="line_fragment_label">Line Fragment</string>
+
+
+    <string name="line_home">Home</string>
+    <string name="line_spinach">Spinash</string>
+    <string name="line_rtc">RTC</string>
+    <string name="line_lines">Straight Lines</string>
+    <string name="line_mixers">Mixers</string>
+    <string name="line_rocket">Rocket</string>
+    <string name="line_bowls">Bowls</string>
+    <string name="line_salad">Salad</string>
+    <string name="line_core">Core</string>
+    <string name="line_soup">Soup</string>
+
+
+    <string name="shop_place_order">Place Order</string>
+    <string name="shop_reports">Reports</string>
+    <string name="shop_invoices">Invoices</string>
+    <string name="shop_logo">Shoprite</string>
+
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
